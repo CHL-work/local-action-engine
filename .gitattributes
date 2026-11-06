@@ -1,0 +1,13 @@
+# Keep imported evidence and provenance hashes byte-stable on every platform.
+# New files use their authored line endings; tools accept both LF and CRLF.
+* -text whitespace=cr-at-eol
+# Preserve Unity-generated YAML and upstream legal texts exactly.
+*.meta -whitespace
+*.asset -whitespace
+*.unity -whitespace
+*.mat -whitespace
+licenses/** -whitespace
+*.fbx binary
+*.ogg binary
+*.png binary
+*.wav binary

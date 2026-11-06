@@ -1,0 +1,524 @@
+{
+ "cellPixels": 16,
+ "grid": 8,
+ "tintCells": [
+  0,
+  1,
+  2,
+  3
+ ],
+ "cells": [
+  {
+   "name": "tint",
+   "rgb": [
+    150,
+    150,
+    150
+   ]
+  },
+  {
+   "name": "tint_shade",
+   "rgb": [
+    104,
+    104,
+    108
+   ]
+  },
+  {
+   "name": "tint_light",
+   "rgb": [
+    196,
+    196,
+    196
+   ]
+  },
+  {
+   "name": "tint_deep",
+   "rgb": [
+    70,
+    70,
+    76
+   ]
+  },
+  {
+   "name": "skin_light",
+   "rgb": [
+    236,
+    196,
+    160
+   ]
+  },
+  {
+   "name": "skin",
+   "rgb": [
+    206,
+    154,
+    118
+   ]
+  },
+  {
+   "name": "skin_dark",
+   "rgb": [
+    150,
+    100,
+    76
+   ]
+  },
+  {
+   "name": "bone",
+   "rgb": [
+    232,
+    222,
+    190
+   ]
+  },
+  {
+   "name": "black",
+   "rgb": [
+    18,
+    16,
+    20
+   ]
+  },
+  {
+   "name": "charcoal",
+   "rgb": [
+    44,
+    42,
+    48
+   ]
+  },
+  {
+   "name": "white",
+   "rgb": [
+    244,
+    244,
+    240
+   ]
+  },
+  {
+   "name": "eye_white",
+   "rgb": [
+    250,
+    238,
+    200
+   ]
+  },
+  {
+   "name": "eye_yellow",
+   "rgb": [
+    255,
+    214,
+    70
+   ]
+  },
+  {
+   "name": "eye_red",
+   "rgb": [
+    255,
+    70,
+    46
+   ]
+  },
+  {
+   "name": "eye_green",
+   "rgb": [
+    150,
+    255,
+    110
+   ]
+  },
+  {
+   "name": "eye_cyan",
+   "rgb": [
+    130,
+    240,
+    255
+   ]
+  },
+  {
+   "name": "gold",
+   "rgb": [
+    240,
+    186,
+    64
+   ]
+  },
+  {
+   "name": "brass_dark",
+   "rgb": [
+    150,
+    104,
+    40
+   ]
+  },
+  {
+   "name": "iron",
+   "rgb": [
+    92,
+    96,
+    104
+   ]
+  },
+  {
+   "name": "iron_dark",
+   "rgb": [
+    52,
+    54,
+    60
+   ]
+  },
+  {
+   "name": "steel",
+   "rgb": [
+    170,
+    176,
+    186
+   ]
+  },
+  {
+   "name": "copper",
+   "rgb": [
+    184,
+    104,
+    64
+   ]
+  },
+  {
+   "name": "cloth_red",
+   "rgb": [
+    168,
+    38,
+    40
+   ]
+  },
+  {
+   "name": "cloth_red_dark",
+   "rgb": [
+    104,
+    22,
+    28
+   ]
+  },
+  {
+   "name": "wood_light",
+   "rgb": [
+    176,
+    128,
+    80
+   ]
+  },
+  {
+   "name": "wood",
+   "rgb": [
+    128,
+    86,
+    50
+   ]
+  },
+  {
+   "name": "wood_dark",
+   "rgb": [
+    82,
+    54,
+    32
+   ]
+  },
+  {
+   "name": "leather",
+   "rgb": [
+    110,
+    70,
+    42
+   ]
+  },
+  {
+   "name": "leather_dark",
+   "rgb": [
+    66,
+    42,
+    28
+   ]
+  },
+  {
+   "name": "straw",
+   "rgb": [
+    200,
+    170,
+    100
+   ]
+  },
+  {
+   "name": "parchment",
+   "rgb": [
+    226,
+    208,
+    166
+   ]
+  },
+  {
+   "name": "paper",
+   "rgb": [
+    246,
+    238,
+    220
+   ]
+  },
+  {
+   "name": "stone_light",
+   "rgb": [
+    168,
+    166,
+    158
+   ]
+  },
+  {
+   "name": "stone",
+   "rgb": [
+    120,
+    120,
+    116
+   ]
+  },
+  {
+   "name": "stone_dark",
+   "rgb": [
+    78,
+    78,
+    78
+   ]
+  },
+  {
+   "name": "moss",
+   "rgb": [
+    86,
+    104,
+    58
+   ]
+  },
+  {
+   "name": "dirt",
+   "rgb": [
+    108,
+    84,
+    60
+   ]
+  },
+  {
+   "name": "sand",
+   "rgb": [
+    200,
+    178,
+    136
+   ]
+  },
+  {
+   "name": "ice_light",
+   "rgb": [
+    200,
+    238,
+    255
+   ]
+  },
+  {
+   "name": "ice",
+   "rgb": [
+    110,
+    180,
+    230
+   ]
+  },
+  {
+   "name": "fire_yellow",
+   "rgb": [
+    255,
+    220,
+    90
+   ]
+  },
+  {
+   "name": "fire_orange",
+   "rgb": [
+    255,
+    128,
+    30
+   ]
+  },
+  {
+   "name": "ember",
+   "rgb": [
+    210,
+    56,
+    24
+   ]
+  },
+  {
+   "name": "acid",
+   "rgb": [
+    140,
+    255,
+    70
+   ]
+  },
+  {
+   "name": "acid_dark",
+   "rgb": [
+    60,
+    150,
+    40
+   ]
+  },
+  {
+   "name": "slime_purple",
+   "rgb": [
+    130,
+    70,
+    170
+   ]
+  },
+  {
+   "name": "pink",
+   "rgb": [
+    240,
+    150,
+    160
+   ]
+  },
+  {
+   "name": "pink_dark",
+   "rgb": [
+    190,
+    90,
+    110
+   ]
+  },
+  {
+   "name": "cloth_blue",
+   "rgb": [
+    54,
+    82,
+    150
+   ]
+  },
+  {
+   "name": "cloth_green",
+   "rgb": [
+    60,
+    110,
+    60
+   ]
+  },
+  {
+   "name": "cloth_purple",
+   "rgb": [
+    100,
+    60,
+    130
+   ]
+  },
+  {
+   "name": "cloth_brown",
+   "rgb": [
+    110,
+    80,
+    56
+   ]
+  },
+  {
+   "name": "cloth_gray",
+   "rgb": [
+    110,
+    110,
+    116
+   ]
+  },
+  {
+   "name": "teal",
+   "rgb": [
+    40,
+    140,
+    140
+   ]
+  },
+  {
+   "name": "beak",
+   "rgb": [
+    240,
+    170,
+    50
+   ]
+  },
+  {
+   "name": "claw",
+   "rgb": [
+    40,
+    34,
+    30
+   ]
+  },
+  {
+   "name": "mouth",
+   "rgb": [
+    90,
+    16,
+    26
+   ]
+  },
+  {
+   "name": "tongue",
+   "rgb": [
+    220,
+    80,
+    100
+   ]
+  },
+  {
+   "name": "feather_dark",
+   "rgb": [
+    34,
+    30,
+    40
+   ]
+  },
+  {
+   "name": "feather",
+   "rgb": [
+    64,
+    58,
+    76
+   ]
+  },
+  {
+   "name": "toad_belly",
+   "rgb": [
+    222,
+    214,
+    130
+   ]
+  },
+  {
+   "name": "toad_spot",
+   "rgb": [
+    250,
+    200,
+    40
+   ]
+  },
+  {
+   "name": "glass_green",
+   "rgb": [
+    150,
+    230,
+    140
+   ]
+  },
+  {
+   "name": "candle",
+   "rgb": [
+    250,
+    240,
+    210
+   ]
+  }
+ ]
+}

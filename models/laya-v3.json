@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "model": "original-english-protocol3-epoch04",
+  "base": {
+    "repository": "convaiinnovations/laya",
+    "revision": "7b928d828b7b0e022f929d9bd2e44165aa270148"
+  },
+  "license": "Apache-2.0",
+  "localDirectory": ".local/models/brainwash-en-v3-opus55-2026-10-13/epoch-04",
+  "archive": {
+    "filename": "laya-english-v3-epoch04.zip",
+    "bytes": 778459028,
+    "sha256": "8e7d8475f4db066d7578294d6a8d9c77626d3497329c0f8c4cc962accadc3394",
+    "url": "https://github.com/CHL-work/local-action-engine/releases/download/models-v1/laya-english-v3-epoch04.zip"
+  },
+  "files": {
+    "brainwash-training.json": {
+      "bytes": 247,
+      "sha256": "7fc7c4ef88021a40848abbae568e74fbf74a81146e7c52067d8378b02c5c1e5e"
+    },
+    "rl_agent_config.json": {
+      "bytes": 929,
+      "sha256": "d1268dfd6d74aed0adf34ebedd015d3db487c808713ffcf1710d06c05f74173e"
+    },
+    "model.safetensors": {
+      "bytes": 842609220,
+      "sha256": "dc8cd7f6928a278b8297e918e9ca79791ffb406eeab3c48183441b9ba29a32cb"
+    },
+    "encoder/config.json": {
+      "bytes": 2168,
+      "sha256": "21a8b57b403837fd4d1b11453d90a7cc53ea3926957a95b06c78447c12729f2b"
+    },
+    "tokenizer/tokenizer.json": {
+      "bytes": 3583325,
+      "sha256": "0b3214f8efe1327290428b84e5d344ff3f2442686c1b89fb7b42c13a79ce6779"
+    },
+    "tokenizer/tokenizer_config.json": {
+      "bytes": 350,
+      "sha256": "e07bcb74963b20b1193332afd3541b36dea30db1e4183d4002d739d5a4dfd5d2"
+    },
+    "LICENSE": {
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    "NOTICE": {
+      "bytes": 661,
+      "sha256": "9233a1b5eb04da01870c5c2e8cf09b95f3aa25e400ed529c42088cf93d33e64c"
+    },
+    "MODEL_CARD.md": {
+      "bytes": 4211,
+      "sha256": "540efea8e387a8c5b02b1a00555a96d6f9dd8610e6f75687408301cb6f67e283"
+    }
+  }
+}

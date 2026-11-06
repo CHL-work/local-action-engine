@@ -1,0 +1,23 @@
+Local Action Engine
+Copyright 2026 CHL-work (DDB)
+
+Selected original engineering code and procedurally generated demonstration
+assets were extracted from CHL-work/project-brainwash. Original names and
+protocol identifiers are retained where required for model compatibility.
+See provenance/source-manifest.json for source identities and adaptations.
+
+The separately distributed English fine-tuned checkpoint derives from
+convaiinnovations/laya (Convai Innovations), revision
+7b928d828b7b0e022f929d9bd2e44165aa270148, Apache License 2.0.
+Its encoder is answerdotai/ModernBERT-large, Apache License 2.0.
+The original authors retain their rights. Fine-tuning does not imply their
+endorsement. See docs/model-card.md and models/laya-v3.json.
+
+Unity engine binaries and Unity packages retain their own license terms.
+The Windows demo ZIP explicitly includes the pinned package license and
+third-party notice texts under licenses/, indexed by package and version.
+This includes Newtonsoft.Json and its Unity adaptations, and the render
+pipeline's third-party components. Their original copyrights are preserved.
+The downloadable Parakeet speech model retains the NVIDIA Open Model License.
+Third-party software installed during setup is not relicensed by this project.
+See THIRD_PARTY_NOTICES.md.
