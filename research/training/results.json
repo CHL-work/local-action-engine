@@ -1,0 +1,157 @@
+{
+  "version": 1,
+  "kind": "derived_historical_summary",
+  "sourceRepository": "CHL-work/project-brainwash",
+  "sourceCommit": "fa39d2003be98db710a3ce3f3ff12669fbaaac25",
+  "sourceFiles": [
+    {
+      "path": "training/runs/english-queue-verification-2026-10-13/epoch-04.json",
+      "gitBlobSha1": "acf4f6bbadf7b3fcea7441dc0fa7b4fa0a20d845",
+      "sha256": "b24b6fc1e8f084f06cc1314df170cd9c463ac1fc8dd12b2c40724f1f1604d147"
+    },
+    {
+      "path": "training/runs/english-filtered80-predicted-audit-2026-10-13/epoch-04.json",
+      "gitBlobSha1": "dcff8417c7cd0179af7c7ba8f32d0b31d3121d36",
+      "sha256": "05b58da13eef51bfa8efbb8de89651b233f93aba3079f187fa500626e5e3262e"
+    },
+    {
+      "path": "training/runs/english-opus55-2026-10-13/start.json",
+      "gitBlobSha1": "88614dc44d62213f95bd295195d0cec1e504278b",
+      "sha256": "eecc5228fb2848f02acf36518a3401b80b03635b5696a334b884c32f3a9f85d2"
+    },
+    {
+      "path": "training/OWNER-PAUSE-HANDOFF.md",
+      "gitBlobSha1": "aa45879206b4939dfa5d7fe914ca696468caaf12",
+      "sha256": "0ccbe5a40fe610ccaf39e3aef2f723fa0dd18289541dad06652cd0d2e3141747"
+    }
+  ],
+  "transformation": "Selected metric/configuration fields copied from saved records. Private paths, per-command traces and operational state omitted. No source evidence was modified.",
+  "freshTrainingPerformed": false,
+  "freshModelEvaluationPerformed": false,
+  "validationLabelType": "synthetic AI-reviewed labels, not independently collected human player intent",
+  "decoder": "joint_preserve_count",
+  "dataset": {
+    "commandCounts": {
+      "train": 3000,
+      "validation": 450,
+      "calibration": 450,
+      "test": 900
+    },
+    "trainDecisionItems": 100119,
+    "validationDecisionItems": 14354
+  },
+  "trainingParameters": {
+    "epochs": 4,
+    "micro_batch": 4,
+    "grad_accum": 8,
+    "loss": "soft-ce",
+    "encoder_lr": 2.5e-05,
+    "head_lr": 0.0001,
+    "shuffle_options": [
+      "choice"
+    ],
+    "max_len": 1536,
+    "head_max_len": 1024,
+    "freeze_encoder": false,
+    "calib_frac": 0,
+    "calib_max": 0
+  },
+  "results": [
+    {
+      "candidate": "original_english_epoch_4",
+      "role": "existing_demo_checkpoint",
+      "sourceFile": "training/runs/english-queue-verification-2026-10-13/epoch-04.json",
+      "sourceField": "verified.joint_preserve_count",
+      "validationCommands": 450,
+      "correctFinalOrders": 430,
+      "wrongExecutableOrders": 12,
+      "byActionCount": {
+        "zero": {
+          "commands": 10,
+          "correctFinalOrders": 9,
+          "semanticMatches": 9,
+          "wrongExecuted": 1
+        },
+        "one": {
+          "commands": 160,
+          "correctFinalOrders": 151,
+          "semanticMatches": 151,
+          "wrongExecuted": 5
+        },
+        "four_plus": {
+          "commands": 10,
+          "correctFinalOrders": 8,
+          "semanticMatches": 8,
+          "wrongExecuted": 0
+        },
+        "three": {
+          "commands": 130,
+          "correctFinalOrders": 122,
+          "semanticMatches": 122,
+          "wrongExecuted": 6
+        },
+        "two": {
+          "commands": 140,
+          "correctFinalOrders": 140,
+          "semanticMatches": 140,
+          "wrongExecuted": 0
+        }
+      }
+    },
+    {
+      "candidate": "filtered80_english_epoch_4",
+      "role": "research_only_not_demo",
+      "sourceFile": "training/runs/english-filtered80-predicted-audit-2026-10-13/epoch-04.json",
+      "sourceField": "verified.joint_preserve_count",
+      "validationCommands": 450,
+      "correctFinalOrders": 436,
+      "wrongExecutableOrders": 8,
+      "byActionCount": {
+        "zero": {
+          "commands": 10,
+          "correctFinalOrders": 10,
+          "semanticMatches": 10,
+          "wrongExecuted": 0
+        },
+        "one": {
+          "commands": 160,
+          "correctFinalOrders": 154,
+          "semanticMatches": 154,
+          "wrongExecuted": 2
+        },
+        "four_plus": {
+          "commands": 10,
+          "correctFinalOrders": 10,
+          "semanticMatches": 10,
+          "wrongExecuted": 0
+        },
+        "three": {
+          "commands": 130,
+          "correctFinalOrders": 122,
+          "semanticMatches": 122,
+          "wrongExecuted": 6
+        },
+        "two": {
+          "commands": 140,
+          "correctFinalOrders": 140,
+          "semanticMatches": 140,
+          "wrongExecuted": 0
+        }
+      }
+    }
+  ],
+  "weightedExperiment": {
+    "status": "stopped_incomplete_not_retained",
+    "actualOptimizerUpdates": 10101,
+    "controlOptimizerUpdates": 12179,
+    "finalOrderResult": null,
+    "sourceField": "OWNER-PAUSE-HANDOFF.md: Stop and preserved accounting"
+  },
+  "limitations": [
+    "Historical synthetic-label agreement does not measure player-intent accuracy or Unity task completion.",
+    "The public extraction omits the full private training archive and does not reproduce these historical model measurements.",
+    "Teacher-forced conditional validation and predicted final-order agreement are different metrics.",
+    "Calibration and test were excluded from checkpoint selection; annotation-related held-out rationale exposure is documented in the original handoff.",
+    "Confidence calibration was not fitted."
+  ]
+}

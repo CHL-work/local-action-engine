@@ -1,0 +1,338 @@
+{
+  "at": "2026-11-06T07:04:46.5379676Z",
+  "unity": "6000.3.26f1",
+  "passed": true,
+  "timing": {
+    "frames": 2613,
+    "sampledSeconds": 46.62299,
+    "averageFramesPerSecond": 56.04531,
+    "largestFrameSeconds": 2.692399,
+    "worldClippedSeconds": 2.65941334
+  },
+  "checks": [
+    {
+      "demo": null,
+      "name": "sound_library_loaded",
+      "pass": true,
+      "detail": "104 sounds, 148 clips"
+    },
+    {
+      "demo": "pit_arena",
+      "name": "built",
+      "pass": true,
+      "detail": "monsters=4"
+    },
+    {
+      "demo": "pit_arena",
+      "name": "snapshots_bounded",
+      "pass": true,
+      "detail": "checked 4 listeners"
+    },
+    {
+      "demo": "pit_arena",
+      "name": "kick_launches_light_monster",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "demo": "pit_arena",
+      "name": "spike_pit_kills",
+      "pass": true,
+      "detail": "spikes"
+    },
+    {
+      "demo": "pit_arena",
+      "name": "fire_detonates_barrel",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "demo": "pit_arena",
+      "name": "heavy_ogre_barely_moves",
+      "pass": true,
+      "detail": "1.2"
+    },
+    {
+      "demo": "pit_arena",
+      "name": "hold_b_locks_every_monster_meeting_your_eyes",
+      "pass": true,
+      "detail": "2 listening · left Listening, middle Listening, right Normal; 2 leases"
+    },
+    {
+      "demo": "pit_arena",
+      "name": "monster_meeting_your_eyes_mid_cast_joins_then",
+      "pass": true,
+      "detail": "left Listening, middle Listening, right Listening; 3 leases"
+    },
+    {
+      "demo": "pit_arena",
+      "name": "listener_losing_eye_contact_leaves_alone",
+      "pass": true,
+      "detail": "left Normal, middle Listening, right Listening; 2 leases"
+    },
+    {
+      "demo": "pit_arena",
+      "name": "release_sends_each_remaining_listener",
+      "pass": true,
+      "detail": "2 sent · left Normal, middle Thinking, right Thinking; 2 leases"
+    },
+    {
+      "demo": "pit_arena",
+      "name": "several_monsters_obey_at_once",
+      "pass": true,
+      "detail": "left Normal, middle Brainwashed, right Brainwashed; 2 leases"
+    },
+    {
+      "demo": "pit_arena",
+      "name": "cast_again_while_others_obey",
+      "pass": true,
+      "detail": "1 listening · left Listening, middle Brainwashed, right Brainwashed; 3 leases"
+    },
+    {
+      "demo": "pit_arena",
+      "name": "blocked_monster_takes_no_fall_damage",
+      "pass": true,
+      "detail": "90/90 HP at x=-12.4, last damage none"
+    },
+    {
+      "demo": "pit_arena",
+      "name": "no_runtime_errors",
+      "pass": true,
+      "detail": "0 error(s)"
+    },
+    {
+      "demo": "puppet_war",
+      "name": "built",
+      "pass": true,
+      "detail": "monsters=10"
+    },
+    {
+      "demo": "puppet_war",
+      "name": "snapshots_bounded",
+      "pass": true,
+      "detail": "checked 10 listeners"
+    },
+    {
+      "demo": "puppet_war",
+      "name": "commanded_fireball_starts_grudge",
+      "pass": true,
+      "detail": "stage=1"
+    },
+    {
+      "demo": "puppet_war",
+      "name": "tithe_of_chaos_refunds_mp",
+      "pass": true,
+      "detail": "MP=16.0"
+    },
+    {
+      "demo": "puppet_war",
+      "name": "lever_frees_ogre",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "demo": "puppet_war",
+      "name": "no_runtime_errors",
+      "pass": true,
+      "detail": "0 error(s)"
+    },
+    {
+      "demo": "ledge_key",
+      "name": "built",
+      "pass": true,
+      "detail": "monsters=6"
+    },
+    {
+      "demo": "ledge_key",
+      "name": "snapshots_bounded",
+      "pass": true,
+      "detail": "checked 6 listeners"
+    },
+    {
+      "demo": "ledge_key",
+      "name": "harpy_carries_player_onto_ledge",
+      "pass": true,
+      "detail": "player=(-6.6, 2.5, 9.0), carrier=(-6.7, 4.7, 9.1), status=Brainwashed, last=All requested actions completed; waiting for control expiry."
+    },
+    {
+      "demo": "ledge_key",
+      "name": "ogre_throws_player_across",
+      "pass": true,
+      "detail": "player=(-6.6, 3.3, 6.4)"
+    },
+    {
+      "demo": "ledge_key",
+      "name": "fireball_burns_rope_and_drops_bridge",
+      "pass": true,
+      "detail": "hinge=270"
+    },
+    {
+      "demo": "ledge_key",
+      "name": "mimic_hidden_gift_returns_key",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "demo": "ledge_key",
+      "name": "rat_tide_makes_keeper_drop_key",
+      "pass": true,
+      "detail": "committed=True, key holder=none, mouse alive=True, last message: goblin keeper flings the brass key away in panic!"
+    },
+    {
+      "demo": "ledge_key",
+      "name": "key_opens_exit",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "demo": "ledge_key",
+      "name": "walking_out_wins",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "demo": "ledge_key",
+      "name": "no_runtime_errors",
+      "pass": true,
+      "detail": "0 error(s)"
+    },
+    {
+      "demo": "rite_of_return",
+      "name": "built",
+      "pass": true,
+      "detail": "monsters=2"
+    },
+    {
+      "demo": "rite_of_return",
+      "name": "snapshots_bounded",
+      "pass": true,
+      "detail": "checked 2 listeners"
+    },
+    {
+      "demo": "rite_of_return",
+      "name": "typed_chant_takes_time",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "demo": "rite_of_return",
+      "name": "chant_outside_circle_does_nothing",
+      "pass": true,
+      "detail": "0.0"
+    },
+    {
+      "demo": "rite_of_return",
+      "name": "exact_chant_fills_rite",
+      "pass": true,
+      "detail": "22.0"
+    },
+    {
+      "demo": "rite_of_return",
+      "name": "wrong_words_barely_count",
+      "pass": true,
+      "detail": "0.0"
+    },
+    {
+      "demo": "rite_of_return",
+      "name": "nurse_revives_cultist",
+      "pass": true,
+      "detail": "accepted=True, nurse=(-0.115, 0.035, 1.811), target=(1.500, 0.000, 1.000), status=Brainwashed, last=Completed step 1: use skill"
+    },
+    {
+      "demo": "rite_of_return",
+      "name": "revived_cultist_chants",
+      "pass": true,
+      "detail": "1.8"
+    },
+    {
+      "demo": "rite_of_return",
+      "name": "no_runtime_errors",
+      "pass": true,
+      "detail": "0 error(s)"
+    },
+    {
+      "demo": "eye_heist",
+      "name": "built",
+      "pass": true,
+      "detail": "monsters=6"
+    },
+    {
+      "demo": "eye_heist",
+      "name": "snapshots_bounded",
+      "pass": true,
+      "detail": "checked 6 listeners"
+    },
+    {
+      "demo": "eye_heist",
+      "name": "gargoyle_petrifies_when_watched",
+      "pass": true,
+      "detail": "Statue"
+    },
+    {
+      "demo": "eye_heist",
+      "name": "watched_gargoyle_holds_clock",
+      "pass": true,
+      "detail": "0.00"
+    },
+    {
+      "demo": "eye_heist",
+      "name": "unwatched_gargoyle_spends_clock",
+      "pass": true,
+      "detail": "1.02"
+    },
+    {
+      "demo": "eye_heist",
+      "name": "shy_lookout_hides_face",
+      "pass": true,
+      "detail": "It hides its face from you. Make a noise or throw something so it looks."
+    },
+    {
+      "demo": "eye_heist",
+      "name": "fire_pot_melts_golem_visor",
+      "pass": true,
+      "detail": "throw 1 from (-0.3, 1.5, 12.6): burst at (-0.3, 1.0, 14.2), golem at (-0.3, 0.0, 14.7) centre (-0.5, 1.2, 15.0). "
+    },
+    {
+      "demo": "eye_heist",
+      "name": "player_cannot_break_vault_door",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "demo": "eye_heist",
+      "name": "heavy_monster_breaks_vault_door",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "demo": "eye_heist",
+      "name": "no_runtime_errors",
+      "pass": true,
+      "detail": "0 error(s)"
+    },
+    {
+      "demo": "gallery",
+      "name": "gallery_built",
+      "pass": true,
+      "detail": "10 monsters"
+    },
+    {
+      "demo": "gallery",
+      "name": "gallery_uses_generated_models",
+      "pass": true,
+      "detail": "all 10 species"
+    },
+    {
+      "demo": "gallery",
+      "name": "gallery_no_runtime_errors",
+      "pass": true,
+      "detail": "0 error(s)"
+    },
+    {
+      "demo": "menu",
+      "name": "menu_returns_to_selection",
+      "pass": true,
+      "detail": null
+    }
+  ]
+}

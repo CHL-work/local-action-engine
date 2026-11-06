@@ -1,0 +1,7 @@
+{
+  "name": "Brainwash.Editor",
+  "rootNamespace": "Brainwash.Editor",
+  "references": ["Brainwash.Runtime", "Unity.Newtonsoft.Json", "Unity.RenderPipelines.Core.Runtime", "Unity.RenderPipelines.Universal.Runtime"],
+  "includePlatforms": ["Editor"],
+  "autoReferenced": true
+}

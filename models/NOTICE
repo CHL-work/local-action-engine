@@ -1,0 +1,12 @@
+Original English protocol-3 epoch-4 action classifier
+Fine-tuning copyright 2026 CHL-work (DDB)
+
+Derived from convaiinnovations/laya by Convai Innovations, pinned revision
+7b928d828b7b0e022f929d9bd2e44165aa270148, Apache License 2.0.
+The encoder is answerdotai/ModernBERT-large by Answer.AI, LightOn and
+contributors, Apache License 2.0. Original authors retain their rights;
+distribution of this fine-tune does not imply their endorsement.
+
+The six checkpoint files are preserved unchanged. LICENSE and MODEL_CARD.md
+describe the distribution terms, intended use, evidence, and limitations.
+The archive contains no optimizer state or private training dataset.

@@ -1,0 +1,72 @@
+[
+  {
+    "capture": "pit_arena",
+    "width": 960,
+    "height": 640,
+    "sampledColors": 915,
+    "channelRange": 247
+  },
+  {
+    "capture": "puppet_war",
+    "width": 960,
+    "height": 640,
+    "sampledColors": 946,
+    "channelRange": 244
+  },
+  {
+    "capture": "ledge_key",
+    "width": 960,
+    "height": 640,
+    "sampledColors": 885,
+    "channelRange": 244
+  },
+  {
+    "capture": "rite_of_return",
+    "width": 960,
+    "height": 640,
+    "sampledColors": 764,
+    "channelRange": 247
+  },
+  {
+    "capture": "eye_heist",
+    "width": 960,
+    "height": 640,
+    "sampledColors": 1216,
+    "channelRange": 249
+  },
+  {
+    "capture": "gallery_idle",
+    "width": 960,
+    "height": 640,
+    "sampledColors": 752,
+    "channelRange": 245
+  },
+  {
+    "capture": "gallery_walk",
+    "width": 960,
+    "height": 640,
+    "sampledColors": 712,
+    "channelRange": 241
+  },
+  {
+    "capture": "gallery_strike",
+    "width": 960,
+    "height": 640,
+    "sampledColors": 729,
+    "channelRange": 245
+  },
+  {
+    "capture": "gallery_dance",
+    "width": 960,
+    "height": 640,
+    "sampledColors": 734,
+    "channelRange": 247
+  },
+  {
+    "capture": "gallery_close",
+    "width": 960,
+    "height": 640,
+    "sampledColors": 999,
+    "channelRange": 246
+  }
+]

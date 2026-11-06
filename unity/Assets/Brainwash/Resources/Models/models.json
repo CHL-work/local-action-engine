@@ -1,0 +1,582 @@
+{
+ "models": [
+  {
+   "id": "barrel",
+   "height": 0.53,
+   "gait": "None",
+   "kind": "prop",
+   "size": [
+    0.6791,
+    1.03,
+    0.715
+   ],
+   "center": [
+    -0.0,
+    0.015,
+    0.0005
+   ],
+   "triangles": 320
+  },
+  {
+   "id": "bomb_toad",
+   "height": 0.85,
+   "gait": "Hopper",
+   "kind": "creature",
+   "size": [
+    1.0494,
+    0.8517,
+    1.0179
+   ],
+   "center": [
+    -0.0,
+    0.4182,
+    -0.0192
+   ],
+   "triangles": 3324
+  },
+  {
+   "id": "boot",
+   "height": 0.195,
+   "gait": "None",
+   "kind": "equipment",
+   "size": [
+    0.21,
+    0.315,
+    0.44
+   ],
+   "center": [
+    -0.0,
+    0.0375,
+    0.02
+   ],
+   "triangles": 224
+  },
+  {
+   "id": "brazier",
+   "height": 0.3847,
+   "gait": "None",
+   "kind": "prop",
+   "size": [
+    0.77,
+    0.8897,
+    0.77
+   ],
+   "center": [
+    -0.0,
+    -0.0601,
+    -0.0
+   ],
+   "triangles": 492
+  },
+  {
+   "id": "cheese",
+   "height": 0.097,
+   "gait": "None",
+   "kind": "item",
+   "size": [
+    0.345,
+    0.189,
+    0.2722
+   ],
+   "center": [
+    0.0025,
+    0.0025,
+    0.0011
+   ],
+   "triangles": 116
+  },
+  {
+   "id": "circle",
+   "height": 0.0261,
+   "gait": "None",
+   "kind": "prop",
+   "size": [
+    1.0,
+    0.0461,
+    1.0
+   ],
+   "center": [
+    -0.0,
+    0.0031,
+    -0.0
+   ],
+   "triangles": 588
+  },
+  {
+   "id": "crate",
+   "height": 0.53,
+   "gait": "None",
+   "kind": "prop",
+   "size": [
+    1.06,
+    1.03,
+    1.06
+   ],
+   "center": [
+    -0.0,
+    0.015,
+    -0.0
+   ],
+   "triangles": 804
+  },
+  {
+   "id": "cultist",
+   "height": 1.75,
+   "gait": "None",
+   "kind": "remains",
+   "size": [
+    0.7299,
+    2.0304,
+    0.7008
+   ],
+   "center": [
+    -0.0,
+    0.7548,
+    0.0095
+   ],
+   "triangles": 1400
+  },
+  {
+   "id": "door_frame",
+   "height": 1.6,
+   "gait": "None",
+   "kind": "prop",
+   "size": [
+    3.2,
+    3.03,
+    0.5
+   ],
+   "center": [
+    -0.0,
+    0.085,
+    -0.0
+   ],
+   "triangles": 528
+  },
+  {
+   "id": "door_panel",
+   "height": 1.28,
+   "gait": "None",
+   "kind": "prop",
+   "size": [
+    2.58,
+    2.56,
+    0.2741
+   ],
+   "center": [
+    1.3,
+    0.0,
+    0.0271
+   ],
+   "triangles": 620
+  },
+  {
+   "id": "fire_pot",
+   "height": 0.155,
+   "gait": "None",
+   "kind": "item",
+   "size": [
+    0.2861,
+    0.277,
+    0.2721
+   ],
+   "center": [
+    -0.0,
+    0.0165,
+    -0.0
+   ],
+   "triangles": 248
+  },
+  {
+   "id": "gargoyle",
+   "height": 1.9,
+   "gait": "Biped",
+   "kind": "creature",
+   "size": [
+    1.047,
+    1.8537,
+    1.9655
+   ],
+   "center": [
+    -0.0,
+    0.9365,
+    -0.3121
+   ],
+   "triangles": 3091
+  },
+  {
+   "id": "gate_panel",
+   "height": 1.44,
+   "gait": "None",
+   "kind": "prop",
+   "size": [
+    4.175,
+    2.84,
+    0.14
+   ],
+   "center": [
+    2.0875,
+    0.02,
+    -0.0
+   ],
+   "triangles": 346
+  },
+  {
+   "id": "goblin",
+   "height": 1.5,
+   "gait": "Biped",
+   "kind": "creature",
+   "size": [
+    0.8884,
+    1.4205,
+    0.6187
+   ],
+   "center": [
+    0.0161,
+    0.7076,
+    0.1393
+   ],
+   "triangles": 2644
+  },
+  {
+   "id": "harpy",
+   "height": 1.5,
+   "gait": "Flyer",
+   "kind": "creature",
+   "size": [
+    2.622,
+    1.468,
+    1.1624
+   ],
+   "center": [
+    -0.0,
+    0.7348,
+    -0.0682
+   ],
+   "triangles": 3474
+  },
+  {
+   "id": "ice_golem",
+   "height": 2.4,
+   "gait": "Heavy",
+   "kind": "creature",
+   "size": [
+    2.1033,
+    2.4031,
+    1.1658
+   ],
+   "center": [
+    0.0008,
+    1.1925,
+    -0.0786
+   ],
+   "triangles": 2082
+  },
+  {
+   "id": "imp",
+   "height": 1.8,
+   "gait": "Biped",
+   "kind": "creature",
+   "size": [
+    0.8581,
+    1.7976,
+    1.2278
+   ],
+   "center": [
+    -0.0011,
+    0.902,
+    -0.3451
+   ],
+   "triangles": 3351
+  },
+  {
+   "id": "key",
+   "height": 0.045,
+   "gait": "None",
+   "kind": "item",
+   "size": [
+    0.6647,
+    0.09,
+    0.2753
+   ],
+   "center": [
+    0.0176,
+    0.0,
+    -0.0
+   ],
+   "triangles": 204
+  },
+  {
+   "id": "lever_base",
+   "height": 0.37,
+   "gait": "None",
+   "kind": "prop",
+   "size": [
+    0.48,
+    0.37,
+    0.45
+   ],
+   "center": [
+    -0.0,
+    0.185,
+    -0.0
+   ],
+   "triangles": 176
+  },
+  {
+   "id": "lever_handle",
+   "height": 1.08,
+   "gait": "None",
+   "kind": "prop",
+   "size": [
+    0.2,
+    1.15,
+    0.1701
+   ],
+   "center": [
+    -0.0,
+    0.505,
+    -0.0
+   ],
+   "triangles": 68
+  },
+  {
+   "id": "mimic",
+   "height": 0.9,
+   "gait": "Shuffle",
+   "kind": "creature",
+   "size": [
+    1.0633,
+    0.9039,
+    0.7349
+   ],
+   "center": [
+    0.0028,
+    0.4478,
+    -0.0018
+   ],
+   "triangles": 2952
+  },
+  {
+   "id": "mouse",
+   "height": 0.6,
+   "gait": "Quadruped",
+   "kind": "creature",
+   "size": [
+    0.5308,
+    0.614,
+    1.6997
+   ],
+   "center": [
+    -0.0,
+    0.3009,
+    -0.3012
+   ],
+   "triangles": 2682
+  },
+  {
+   "id": "nurse",
+   "height": 2.2,
+   "gait": "Glide",
+   "kind": "creature",
+   "size": [
+    0.7562,
+    2.2191,
+    1.0248
+   ],
+   "center": [
+    0.0001,
+    1.1095,
+    0.0855
+   ],
+   "triangles": 3344
+  },
+  {
+   "id": "ogre",
+   "height": 3.0,
+   "gait": "Heavy",
+   "kind": "creature",
+   "size": [
+    1.7443,
+    3.0125,
+    1.2107
+   ],
+   "center": [
+    -0.0,
+    1.4967,
+    0.1046
+   ],
+   "triangles": 3738
+  },
+  {
+   "id": "pebble",
+   "height": 0.0723,
+   "gait": "None",
+   "kind": "prop",
+   "size": [
+    0.2031,
+    0.1347,
+    0.1911
+   ],
+   "center": [
+    -0.0007,
+    0.005,
+    -0.0003
+   ],
+   "triangles": 20
+  },
+  {
+   "id": "pedestal",
+   "height": 0.5,
+   "gait": "None",
+   "kind": "prop",
+   "size": [
+    0.8,
+    1.0,
+    0.8
+   ],
+   "center": [
+    -0.0,
+    0.0,
+    -0.0
+   ],
+   "triangles": 384
+  },
+  {
+   "id": "relic",
+   "height": 0.245,
+   "gait": "None",
+   "kind": "item",
+   "size": [
+    0.29,
+    0.445,
+    0.28
+   ],
+   "center": [
+    -0.0,
+    0.0225,
+    -0.0
+   ],
+   "triangles": 182
+  },
+  {
+   "id": "rock",
+   "height": 0.1981,
+   "gait": "None",
+   "kind": "prop",
+   "size": [
+    0.4484,
+    0.4056,
+    0.3813
+   ],
+   "center": [
+    0.0086,
+    -0.0047,
+    0.0267
+   ],
+   "triangles": 60
+  },
+  {
+   "id": "rune_stone",
+   "height": 0.28,
+   "gait": "None",
+   "kind": "prop",
+   "size": [
+    0.167,
+    0.28,
+    0.1344
+   ],
+   "center": [
+    -0.0,
+    0.14,
+    0.0031
+   ],
+   "triangles": 68
+  },
+  {
+   "id": "scripture",
+   "height": 0.047,
+   "gait": "None",
+   "kind": "item",
+   "size": [
+    0.315,
+    0.0895,
+    0.38
+   ],
+   "center": [
+    0.0025,
+    0.0022,
+    -0.0
+   ],
+   "triangles": 148
+  },
+  {
+   "id": "spike",
+   "height": 0.35,
+   "gait": "None",
+   "kind": "prop",
+   "size": [
+    0.116,
+    0.7,
+    0.1005
+   ],
+   "center": [
+    -0.0,
+    0.0,
+    -0.0
+   ],
+   "triangles": 60
+  },
+  {
+   "id": "staff",
+   "height": 0.662,
+   "gait": "None",
+   "kind": "equipment",
+   "size": [
+    0.1868,
+    1.212,
+    0.3917
+   ],
+   "center": [
+    0.024,
+    0.056,
+    -0.1295
+   ],
+   "triangles": 824
+  },
+  {
+   "id": "tent",
+   "height": 0.55,
+   "gait": "None",
+   "kind": "prop",
+   "size": [
+    1.0358,
+    1.0747,
+    1.2081
+   ],
+   "center": [
+    -0.0,
+    0.0127,
+    0.054
+   ],
+   "triangles": 108
+  },
+  {
+   "id": "torch",
+   "height": 0.285,
+   "gait": "None",
+   "kind": "prop",
+   "size": [
+    0.12,
+    0.585,
+    0.1841
+   ],
+   "center": [
+    -0.0,
+    -0.0075,
+    -0.038
+   ],
+   "triangles": 112
+  }
+ ]
+}

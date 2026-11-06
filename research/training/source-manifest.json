@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "sourceRepository": "CHL-work/project-brainwash",
+  "sourceCommit": "fa39d2003be98db710a3ce3f3ff12669fbaaac25",
+  "files": [
+    {
+      "path": "training/train-approved.py",
+      "gitBlobSha1": "b6e6f8bf740d5602bdd78010287fa4b0be75e193",
+      "sha256": "a11df59f956208e4eb670ef3b3d0f1bf5275a2c05dcd5a4422006fad610d07e6",
+      "destination": "research/training/train-approved.py",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "training/test_train_approved.py",
+      "gitBlobSha1": "f62d85047f45abd70aebcc5fd5cbab146220e299",
+      "sha256": "f8c415d54e6a0b3c6a92ceb9346b11fd86bd76e5be64a04b372e7c99951388d8",
+      "destination": "research/training/test_train_approved.py",
+      "transformation": "byte-for-byte copy"
+    }
+  ]
+}

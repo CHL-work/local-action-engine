@@ -1,0 +1,1401 @@
+{
+  "version": 1,
+  "sounds": [
+    {
+      "id": "staff_swing",
+      "files": [
+        "staff_swing_1",
+        "staff_swing_2",
+        "staff_swing_3"
+      ],
+      "loop": false,
+      "volume": 0.36,
+      "pitchJitter": 0.07,
+      "minDistance": 1.0,
+      "maxDistance": 15.0,
+      "category": "player",
+      "description": "Wooden staff whooshing through the air; play on every melee swing."
+    },
+    {
+      "id": "staff_hit_flesh",
+      "files": [
+        "staff_hit_flesh_1",
+        "staff_hit_flesh_2",
+        "staff_hit_flesh_3"
+      ],
+      "loop": false,
+      "volume": 0.81,
+      "pitchJitter": 0.07,
+      "minDistance": 1.0,
+      "maxDistance": 20.0,
+      "category": "player",
+      "description": "Blunt staff thud landing on a creature's body."
+    },
+    {
+      "id": "staff_hit_hard",
+      "files": [
+        "staff_hit_hard_1",
+        "staff_hit_hard_2"
+      ],
+      "loop": false,
+      "volume": 1.0,
+      "pitchJitter": 0.07,
+      "minDistance": 1.0,
+      "maxDistance": 22.0,
+      "category": "player",
+      "description": "Staff cracking against a hard surface (stone, wood, ice, armour)."
+    },
+    {
+      "id": "kick_whoosh",
+      "files": [
+        "kick_whoosh_1",
+        "kick_whoosh_2"
+      ],
+      "loop": false,
+      "volume": 0.3,
+      "pitchJitter": 0.08,
+      "minDistance": 1.0,
+      "maxDistance": 12.0,
+      "category": "player",
+      "description": "Quick leg whoosh at the start of a kick."
+    },
+    {
+      "id": "kick_impact",
+      "files": [
+        "kick_impact_1",
+        "kick_impact_2"
+      ],
+      "loop": false,
+      "volume": 0.82,
+      "pitchJitter": 0.06,
+      "minDistance": 1.0,
+      "maxDistance": 25.0,
+      "category": "player",
+      "description": "Punchy boot thump that launches the target."
+    },
+    {
+      "id": "footstep_player",
+      "files": [
+        "footstep_player_1",
+        "footstep_player_2",
+        "footstep_player_3",
+        "footstep_player_4"
+      ],
+      "loop": false,
+      "volume": 0.34,
+      "pitchJitter": 0.06,
+      "minDistance": 0.8,
+      "maxDistance": 12.0,
+      "category": "player",
+      "description": "Soft leather boot step on stone (player footsteps, alternate variants)."
+    },
+    {
+      "id": "jump",
+      "files": [
+        "jump"
+      ],
+      "loop": false,
+      "volume": 0.28,
+      "pitchJitter": 0.06,
+      "minDistance": 1.0,
+      "maxDistance": 12.0,
+      "category": "player",
+      "description": "Jump take-off: cloth rustle and a light push off the ground."
+    },
+    {
+      "id": "land",
+      "files": [
+        "land"
+      ],
+      "loop": false,
+      "volume": 0.35,
+      "pitchJitter": 0.06,
+      "minDistance": 1.0,
+      "maxDistance": 15.0,
+      "category": "player",
+      "description": "Boots landing after a jump or fall."
+    },
+    {
+      "id": "player_hurt",
+      "files": [
+        "player_hurt_1",
+        "player_hurt_2",
+        "player_hurt_3"
+      ],
+      "loop": false,
+      "volume": 0.27,
+      "pitchJitter": 0.04,
+      "minDistance": 1.0,
+      "maxDistance": 20.0,
+      "category": "player",
+      "description": "Short pained grunt from the player (no words)."
+    },
+    {
+      "id": "player_death",
+      "files": [
+        "player_death"
+      ],
+      "loop": false,
+      "volume": 0.34,
+      "pitchJitter": 0.0,
+      "minDistance": 1.0,
+      "maxDistance": 25.0,
+      "category": "player",
+      "description": "Player death: falling groan, then the body drops."
+    },
+    {
+      "id": "item_pickup",
+      "files": [
+        "item_pickup"
+      ],
+      "loop": false,
+      "volume": 0.44,
+      "pitchJitter": 0.05,
+      "minDistance": 1.0,
+      "maxDistance": 10.0,
+      "category": "player",
+      "description": "Picking up a small item: pouch rustle and a light clink."
+    },
+    {
+      "id": "item_drop",
+      "files": [
+        "item_drop"
+      ],
+      "loop": false,
+      "volume": 0.79,
+      "pitchJitter": 0.07,
+      "minDistance": 1.0,
+      "maxDistance": 15.0,
+      "category": "player",
+      "description": "A small item dropped on the floor: light clatter with a bounce."
+    },
+    {
+      "id": "grab",
+      "files": [
+        "grab"
+      ],
+      "loop": false,
+      "volume": 0.27,
+      "pitchJitter": 0.06,
+      "minDistance": 1.0,
+      "maxDistance": 10.0,
+      "category": "player",
+      "description": "Hands gripping a heavy object."
+    },
+    {
+      "id": "throw_whoosh",
+      "files": [
+        "throw_whoosh"
+      ],
+      "loop": false,
+      "volume": 0.39,
+      "pitchJitter": 0.06,
+      "minDistance": 1.0,
+      "maxDistance": 18.0,
+      "category": "player",
+      "description": "Heavy object thrown: big, low whoosh."
+    },
+    {
+      "id": "cast_start",
+      "files": [
+        "cast_start"
+      ],
+      "loop": false,
+      "volume": 0.47,
+      "pitchJitter": 0.0,
+      "minDistance": 1.0,
+      "maxDistance": 30.0,
+      "category": "brainwash",
+      "description": "Brainwash eye opening: rising mystical shimmer when the player starts a cast (2D)."
+    },
+    {
+      "id": "cast_loop",
+      "files": [
+        "cast_loop"
+      ],
+      "loop": true,
+      "volume": 0.32,
+      "pitchJitter": 0.0,
+      "minDistance": 1.0,
+      "maxDistance": 30.0,
+      "category": "brainwash",
+      "description": "Soft hypnotic drone held while the player speaks a command; loop=true, keep quiet. Low and steady with no transients so it does not disturb speech recognition."
+    },
+    {
+      "id": "listener_join",
+      "files": [
+        "listener_join"
+      ],
+      "loop": false,
+      "volume": 0.45,
+      "pitchJitter": 0.0,
+      "minDistance": 1.0,
+      "maxDistance": 30.0,
+      "category": "brainwash",
+      "description": "Glassy ping when a monster starts listening; pitch-shift per listener in code."
+    },
+    {
+      "id": "listener_lost",
+      "files": [
+        "listener_lost"
+      ],
+      "loop": false,
+      "volume": 0.23,
+      "pitchJitter": 0.0,
+      "minDistance": 1.0,
+      "maxDistance": 30.0,
+      "category": "brainwash",
+      "description": "Short descending blip when a monster stops listening."
+    },
+    {
+      "id": "cast_send",
+      "files": [
+        "cast_send"
+      ],
+      "loop": false,
+      "volume": 0.4,
+      "pitchJitter": 0.02,
+      "minDistance": 1.0,
+      "maxDistance": 30.0,
+      "category": "brainwash",
+      "description": "Thought whoosh sent from the player toward a monster (command dispatched)."
+    },
+    {
+      "id": "thinking",
+      "files": [
+        "thinking"
+      ],
+      "loop": false,
+      "volume": 0.2,
+      "pitchJitter": 0.0,
+      "minDistance": 1.0,
+      "maxDistance": 30.0,
+      "category": "brainwash",
+      "description": "Warbling, bubbling 'processing' sound while the command is interpreted. Starts and ends silent and is built periodic, so it can also be looped while waiting."
+    },
+    {
+      "id": "obey",
+      "files": [
+        "obey"
+      ],
+      "loop": false,
+      "volume": 0.64,
+      "pitchJitter": 0.0,
+      "minDistance": 1.0,
+      "maxDistance": 30.0,
+      "category": "brainwash",
+      "description": "Mind snap: reverse swell into a deep hypnotic chord when a monster obeys."
+    },
+    {
+      "id": "cast_fail",
+      "files": [
+        "cast_fail"
+      ],
+      "loop": false,
+      "volume": 0.33,
+      "pitchJitter": 0.0,
+      "minDistance": 1.0,
+      "maxDistance": 30.0,
+      "category": "brainwash",
+      "description": "Dull buzz/thunk: the command was spoken but nobody was listening."
+    },
+    {
+      "id": "control_end",
+      "files": [
+        "control_end"
+      ],
+      "loop": false,
+      "volume": 0.26,
+      "pitchJitter": 0.0,
+      "minDistance": 1.0,
+      "maxDistance": 30.0,
+      "category": "brainwash",
+      "description": "Gentle descending release tone when a monster's five seconds of control end."
+    },
+    {
+      "id": "mp_low",
+      "files": [
+        "mp_low"
+      ],
+      "loop": false,
+      "volume": 0.29,
+      "pitchJitter": 0.0,
+      "minDistance": 1.0,
+      "maxDistance": 30.0,
+      "category": "brainwash",
+      "description": "Soft warning pulse: not enough mind power to cast."
+    },
+    {
+      "id": "goblin_alert",
+      "files": [
+        "goblin_alert_1",
+        "goblin_alert_2"
+      ],
+      "loop": false,
+      "volume": 0.3,
+      "pitchJitter": 0.06,
+      "minDistance": 1.5,
+      "maxDistance": 30.0,
+      "category": "monster",
+      "description": "Goblin spots the player: nasal 'eh?!' and a nasty little snicker."
+    },
+    {
+      "id": "goblin_attack",
+      "files": [
+        "goblin_attack_1",
+        "goblin_attack_2"
+      ],
+      "loop": false,
+      "volume": 0.31,
+      "pitchJitter": 0.06,
+      "minDistance": 1.5,
+      "maxDistance": 30.0,
+      "category": "monster",
+      "description": "Goblin attack yell: aggressive high 'hyaah!'."
+    },
+    {
+      "id": "goblin_hurt",
+      "files": [
+        "goblin_hurt_1",
+        "goblin_hurt_2"
+      ],
+      "loop": false,
+      "volume": 0.3,
+      "pitchJitter": 0.07,
+      "minDistance": 1.5,
+      "maxDistance": 28.0,
+      "category": "monster",
+      "description": "Goblin hurt: sharp nasal yelp."
+    },
+    {
+      "id": "goblin_death",
+      "files": [
+        "goblin_death"
+      ],
+      "loop": false,
+      "volume": 0.3,
+      "pitchJitter": 0.04,
+      "minDistance": 1.5,
+      "maxDistance": 30.0,
+      "category": "monster",
+      "description": "Goblin death: descending wail ending in one feeble 'heh'."
+    },
+    {
+      "id": "imp_attack",
+      "files": [
+        "imp_attack_1",
+        "imp_attack_2"
+      ],
+      "loop": false,
+      "volume": 0.29,
+      "pitchJitter": 0.07,
+      "minDistance": 1.5,
+      "maxDistance": 28.0,
+      "category": "monster",
+      "description": "Imp attack: rapid chitter into a screech."
+    },
+    {
+      "id": "imp_hurt",
+      "files": [
+        "imp_hurt_1",
+        "imp_hurt_2"
+      ],
+      "loop": false,
+      "volume": 0.31,
+      "pitchJitter": 0.07,
+      "minDistance": 1.5,
+      "maxDistance": 26.0,
+      "category": "monster",
+      "description": "Imp hurt: short piercing squeal."
+    },
+    {
+      "id": "imp_death",
+      "files": [
+        "imp_death"
+      ],
+      "loop": false,
+      "volume": 0.37,
+      "pitchJitter": 0.04,
+      "minDistance": 1.5,
+      "maxDistance": 28.0,
+      "category": "monster",
+      "description": "Imp death: falling, gurgling screech that fizzles out in a puff."
+    },
+    {
+      "id": "ogre_roar",
+      "files": [
+        "ogre_roar"
+      ],
+      "loop": false,
+      "volume": 0.61,
+      "pitchJitter": 0.04,
+      "minDistance": 3.0,
+      "maxDistance": 50.0,
+      "category": "monster",
+      "description": "Ogre roar: huge bellowing growl (alert / taunt)."
+    },
+    {
+      "id": "ogre_attack",
+      "files": [
+        "ogre_attack_1",
+        "ogre_attack_2"
+      ],
+      "loop": false,
+      "volume": 0.43,
+      "pitchJitter": 0.05,
+      "minDistance": 3.0,
+      "maxDistance": 45.0,
+      "category": "monster",
+      "description": "Ogre attack: heavy effort grunt as it swings."
+    },
+    {
+      "id": "ogre_hurt",
+      "files": [
+        "ogre_hurt_1",
+        "ogre_hurt_2"
+      ],
+      "loop": false,
+      "volume": 0.54,
+      "pitchJitter": 0.05,
+      "minDistance": 3.0,
+      "maxDistance": 45.0,
+      "category": "monster",
+      "description": "Ogre hurt: pained, bellowing 'oarrgh'."
+    },
+    {
+      "id": "ogre_death",
+      "files": [
+        "ogre_death"
+      ],
+      "loop": false,
+      "volume": 0.53,
+      "pitchJitter": 0.03,
+      "minDistance": 3.0,
+      "maxDistance": 50.0,
+      "category": "monster",
+      "description": "Ogre death: long falling groan with a last gurgling breath."
+    },
+    {
+      "id": "golem_attack",
+      "files": [
+        "golem_attack"
+      ],
+      "loop": false,
+      "volume": 0.55,
+      "pitchJitter": 0.05,
+      "minDistance": 3.0,
+      "maxDistance": 45.0,
+      "category": "monster",
+      "description": "Frost golem attack: icy grinding grunt."
+    },
+    {
+      "id": "golem_hurt",
+      "files": [
+        "golem_hurt_1",
+        "golem_hurt_2"
+      ],
+      "loop": false,
+      "volume": 0.53,
+      "pitchJitter": 0.06,
+      "minDistance": 3.0,
+      "maxDistance": 40.0,
+      "category": "monster",
+      "description": "Frost golem hurt: ice cracking with a low groan."
+    },
+    {
+      "id": "golem_death",
+      "files": [
+        "golem_death"
+      ],
+      "loop": false,
+      "volume": 0.5,
+      "pitchJitter": 0.03,
+      "minDistance": 3.0,
+      "maxDistance": 50.0,
+      "category": "monster",
+      "description": "Frost golem death: big crack, ice shatter and heavy collapse."
+    },
+    {
+      "id": "mouse_squeak",
+      "files": [
+        "mouse_squeak_1",
+        "mouse_squeak_2"
+      ],
+      "loop": false,
+      "volume": 0.12,
+      "pitchJitter": 0.08,
+      "minDistance": 0.8,
+      "maxDistance": 14.0,
+      "category": "monster",
+      "description": "Cheese mouse squeak (idle / alert)."
+    },
+    {
+      "id": "mouse_hurt",
+      "files": [
+        "mouse_hurt"
+      ],
+      "loop": false,
+      "volume": 0.12,
+      "pitchJitter": 0.07,
+      "minDistance": 0.8,
+      "maxDistance": 15.0,
+      "category": "monster",
+      "description": "Cheese mouse hurt: sharp 'eep!'."
+    },
+    {
+      "id": "mouse_death",
+      "files": [
+        "mouse_death"
+      ],
+      "loop": false,
+      "volume": 0.12,
+      "pitchJitter": 0.05,
+      "minDistance": 0.8,
+      "maxDistance": 15.0,
+      "category": "monster",
+      "description": "Cheese mouse death: wobbly descending squeak and a tiny flop."
+    },
+    {
+      "id": "harpy_screech",
+      "files": [
+        "harpy_screech_1",
+        "harpy_screech_2"
+      ],
+      "loop": false,
+      "volume": 0.33,
+      "pitchJitter": 0.05,
+      "minDistance": 3.0,
+      "maxDistance": 55.0,
+      "category": "monster",
+      "description": "Harpy screech: raspy, shrieking bird cry (alert / attack)."
+    },
+    {
+      "id": "harpy_hurt",
+      "files": [
+        "harpy_hurt"
+      ],
+      "loop": false,
+      "volume": 0.46,
+      "pitchJitter": 0.06,
+      "minDistance": 3.0,
+      "maxDistance": 45.0,
+      "category": "monster",
+      "description": "Harpy hurt: short squawk."
+    },
+    {
+      "id": "harpy_death",
+      "files": [
+        "harpy_death"
+      ],
+      "loop": false,
+      "volume": 0.42,
+      "pitchJitter": 0.04,
+      "minDistance": 3.0,
+      "maxDistance": 55.0,
+      "category": "monster",
+      "description": "Harpy death: screech collapsing into a gurgle with failing wing beats."
+    },
+    {
+      "id": "wing_flap",
+      "files": [
+        "wing_flap_1",
+        "wing_flap_2",
+        "wing_flap_3"
+      ],
+      "loop": false,
+      "volume": 0.39,
+      "pitchJitter": 0.08,
+      "minDistance": 1.5,
+      "maxDistance": 25.0,
+      "category": "monster",
+      "description": "Wing beat (harpy, imp): leathery/feathered whump. Not vocal."
+    },
+    {
+      "id": "toad_croak",
+      "files": [
+        "toad_croak_1",
+        "toad_croak_2"
+      ],
+      "loop": false,
+      "volume": 0.51,
+      "pitchJitter": 0.07,
+      "minDistance": 1.5,
+      "maxDistance": 30.0,
+      "category": "monster",
+      "description": "Bomb toad croak (idle / alert)."
+    },
+    {
+      "id": "toad_inflate",
+      "files": [
+        "toad_inflate"
+      ],
+      "loop": false,
+      "volume": 0.49,
+      "pitchJitter": 0.0,
+      "minDistance": 1.5,
+      "maxDistance": 30.0,
+      "category": "monster",
+      "description": "Bomb toad swelling up before it explodes: stretchy rising rubber squeal."
+    },
+    {
+      "id": "toad_hurt",
+      "files": [
+        "toad_hurt"
+      ],
+      "loop": false,
+      "volume": 0.62,
+      "pitchJitter": 0.07,
+      "minDistance": 1.5,
+      "maxDistance": 28.0,
+      "category": "monster",
+      "description": "Bomb toad hurt: squelchy 'gurk!'."
+    },
+    {
+      "id": "toad_hop",
+      "files": [
+        "toad_hop_1",
+        "toad_hop_2"
+      ],
+      "loop": false,
+      "volume": 0.66,
+      "pitchJitter": 0.08,
+      "minDistance": 1.0,
+      "maxDistance": 18.0,
+      "category": "monster",
+      "description": "Bomb toad hop landing: wet squelch."
+    },
+    {
+      "id": "nurse_hiss",
+      "files": [
+        "nurse_hiss_1",
+        "nurse_hiss_2"
+      ],
+      "loop": false,
+      "volume": 0.28,
+      "pitchJitter": 0.06,
+      "minDistance": 1.5,
+      "maxDistance": 25.0,
+      "category": "monster",
+      "description": "Plague nurse hiss: raspy breath through the beak mask (alert / threat)."
+    },
+    {
+      "id": "nurse_hurt",
+      "files": [
+        "nurse_hurt"
+      ],
+      "loop": false,
+      "volume": 0.33,
+      "pitchJitter": 0.06,
+      "minDistance": 1.5,
+      "maxDistance": 25.0,
+      "category": "monster",
+      "description": "Plague nurse hurt: muffled strained cry behind the mask."
+    },
+    {
+      "id": "nurse_death",
+      "files": [
+        "nurse_death"
+      ],
+      "loop": false,
+      "volume": 0.46,
+      "pitchJitter": 0.03,
+      "minDistance": 1.5,
+      "maxDistance": 28.0,
+      "category": "monster",
+      "description": "Plague nurse death: rasping wail that dies into a bubbling exhale."
+    },
+    {
+      "id": "gargoyle_grind",
+      "files": [
+        "gargoyle_grind"
+      ],
+      "loop": false,
+      "volume": 0.39,
+      "pitchJitter": 0.06,
+      "minDistance": 2.0,
+      "maxDistance": 30.0,
+      "category": "monster",
+      "description": "Gargoyle moving while unwatched: heavy stone grinding."
+    },
+    {
+      "id": "gargoyle_hurt",
+      "files": [
+        "gargoyle_hurt"
+      ],
+      "loop": false,
+      "volume": 0.81,
+      "pitchJitter": 0.07,
+      "minDistance": 2.0,
+      "maxDistance": 30.0,
+      "category": "monster",
+      "description": "Gargoyle hurt: stone chips breaking off."
+    },
+    {
+      "id": "gargoyle_death",
+      "files": [
+        "gargoyle_death"
+      ],
+      "loop": false,
+      "volume": 0.82,
+      "pitchJitter": 0.03,
+      "minDistance": 2.0,
+      "maxDistance": 40.0,
+      "category": "monster",
+      "description": "Gargoyle death: the statue cracks and crumbles into rubble."
+    },
+    {
+      "id": "mimic_chomp",
+      "files": [
+        "mimic_chomp_1",
+        "mimic_chomp_2"
+      ],
+      "loop": false,
+      "volume": 0.84,
+      "pitchJitter": 0.06,
+      "minDistance": 1.5,
+      "maxDistance": 28.0,
+      "category": "monster",
+      "description": "Mimic chomp: wooden jaws slamming shut with a wet bite."
+    },
+    {
+      "id": "mimic_lid_open",
+      "files": [
+        "mimic_lid_open"
+      ],
+      "loop": false,
+      "volume": 0.67,
+      "pitchJitter": 0.05,
+      "minDistance": 1.5,
+      "maxDistance": 25.0,
+      "category": "monster",
+      "description": "Mimic lid creaking open (reveal / about to bite)."
+    },
+    {
+      "id": "mimic_lid_close",
+      "files": [
+        "mimic_lid_close"
+      ],
+      "loop": false,
+      "volume": 0.75,
+      "pitchJitter": 0.06,
+      "minDistance": 1.5,
+      "maxDistance": 25.0,
+      "category": "monster",
+      "description": "Mimic lid shutting: wooden thunk with a latch clink."
+    },
+    {
+      "id": "mimic_hurt",
+      "files": [
+        "mimic_hurt"
+      ],
+      "loop": false,
+      "volume": 0.49,
+      "pitchJitter": 0.06,
+      "minDistance": 1.5,
+      "maxDistance": 25.0,
+      "category": "monster",
+      "description": "Mimic hurt: wood cracks and a hollow, creaky groan."
+    },
+    {
+      "id": "mimic_death",
+      "files": [
+        "mimic_death"
+      ],
+      "loop": false,
+      "volume": 0.71,
+      "pitchJitter": 0.03,
+      "minDistance": 1.5,
+      "maxDistance": 30.0,
+      "category": "monster",
+      "description": "Mimic death: wood splintering, a dying groan and spilled coins."
+    },
+    {
+      "id": "footstep_light",
+      "files": [
+        "footstep_light_1",
+        "footstep_light_2",
+        "footstep_light_3",
+        "footstep_light_4"
+      ],
+      "loop": false,
+      "volume": 0.29,
+      "pitchJitter": 0.08,
+      "minDistance": 0.6,
+      "maxDistance": 10.0,
+      "category": "monster",
+      "description": "Small claws/paws patter (mouse, imp on foot)."
+    },
+    {
+      "id": "footstep_medium",
+      "files": [
+        "footstep_medium_1",
+        "footstep_medium_2",
+        "footstep_medium_3",
+        "footstep_medium_4"
+      ],
+      "loop": false,
+      "volume": 0.39,
+      "pitchJitter": 0.07,
+      "minDistance": 0.8,
+      "maxDistance": 15.0,
+      "category": "monster",
+      "description": "Goblin-sized bare feet / small boots on stone."
+    },
+    {
+      "id": "footstep_heavy",
+      "files": [
+        "footstep_heavy_1",
+        "footstep_heavy_2",
+        "footstep_heavy_3",
+        "footstep_heavy_4"
+      ],
+      "loop": false,
+      "volume": 0.44,
+      "pitchJitter": 0.06,
+      "minDistance": 3.0,
+      "maxDistance": 45.0,
+      "category": "monster",
+      "description": "Ogre/golem stomp with a low thump and grit."
+    },
+    {
+      "id": "footstep_stone",
+      "files": [
+        "footstep_stone_1",
+        "footstep_stone_2",
+        "footstep_stone_3"
+      ],
+      "loop": false,
+      "volume": 0.61,
+      "pitchJitter": 0.07,
+      "minDistance": 1.5,
+      "maxDistance": 25.0,
+      "category": "monster",
+      "description": "Stone feet on stone (gargoyle walking)."
+    },
+    {
+      "id": "explosion",
+      "files": [
+        "explosion_1",
+        "explosion_2"
+      ],
+      "loop": false,
+      "volume": 0.83,
+      "pitchJitter": 0.05,
+      "minDistance": 5.0,
+      "maxDistance": 90.0,
+      "category": "world",
+      "description": "Big explosion (bomb toad, explosive barrel): boom, crack and a falling debris tail."
+    },
+    {
+      "id": "fire_ignite",
+      "files": [
+        "fire_ignite"
+      ],
+      "loop": false,
+      "volume": 0.46,
+      "pitchJitter": 0.05,
+      "minDistance": 2.0,
+      "maxDistance": 40.0,
+      "category": "world",
+      "description": "Flames catching: a 'whoomp' as fire ignites (fire trench, torches)."
+    },
+    {
+      "id": "fire_loop",
+      "files": [
+        "fire_loop"
+      ],
+      "loop": true,
+      "volume": 0.6,
+      "pitchJitter": 0.0,
+      "minDistance": 1.5,
+      "maxDistance": 25.0,
+      "category": "world",
+      "description": "Crackling fire bed (fire trench, braziers); loop=true."
+    },
+    {
+      "id": "fireball_cast",
+      "files": [
+        "fireball_cast"
+      ],
+      "loop": false,
+      "volume": 0.39,
+      "pitchJitter": 0.06,
+      "minDistance": 2.0,
+      "maxDistance": 40.0,
+      "category": "world",
+      "description": "Imp throws a fireball: fiery whoosh/roar."
+    },
+    {
+      "id": "fireball_impact",
+      "files": [
+        "fireball_impact"
+      ],
+      "loop": false,
+      "volume": 0.76,
+      "pitchJitter": 0.06,
+      "minDistance": 2.0,
+      "maxDistance": 45.0,
+      "category": "world",
+      "description": "Fireball hits: fiery burst with crackle and sizzle."
+    },
+    {
+      "id": "ice_bolt_cast",
+      "files": [
+        "ice_bolt_cast"
+      ],
+      "loop": false,
+      "volume": 0.41,
+      "pitchJitter": 0.06,
+      "minDistance": 2.0,
+      "maxDistance": 40.0,
+      "category": "world",
+      "description": "Frost golem ice bolt: crystalline whoosh."
+    },
+    {
+      "id": "ice_impact",
+      "files": [
+        "ice_impact"
+      ],
+      "loop": false,
+      "volume": 0.53,
+      "pitchJitter": 0.06,
+      "minDistance": 2.0,
+      "maxDistance": 40.0,
+      "category": "world",
+      "description": "Ice bolt hits / ice block breaks: crack and shatter."
+    },
+    {
+      "id": "spike_impale",
+      "files": [
+        "spike_impale"
+      ],
+      "loop": false,
+      "volume": 0.85,
+      "pitchJitter": 0.06,
+      "minDistance": 1.5,
+      "maxDistance": 30.0,
+      "category": "world",
+      "description": "Something impaled on a spike: sharp stab and a wet squish."
+    },
+    {
+      "id": "fall_whistle",
+      "files": [
+        "fall_whistle"
+      ],
+      "loop": false,
+      "volume": 0.22,
+      "pitchJitter": 0.04,
+      "minDistance": 3.0,
+      "maxDistance": 60.0,
+      "category": "world",
+      "description": "Something falling into the abyss: descending whistle receding into wind."
+    },
+    {
+      "id": "body_impact",
+      "files": [
+        "body_impact_1",
+        "body_impact_2",
+        "body_impact_3"
+      ],
+      "loop": false,
+      "volume": 0.76,
+      "pitchJitter": 0.07,
+      "minDistance": 1.5,
+      "maxDistance": 30.0,
+      "category": "world",
+      "description": "Body slamming the floor, a wall or another body."
+    },
+    {
+      "id": "wood_impact",
+      "files": [
+        "wood_impact_1",
+        "wood_impact_2"
+      ],
+      "loop": false,
+      "volume": 0.84,
+      "pitchJitter": 0.07,
+      "minDistance": 1.5,
+      "maxDistance": 30.0,
+      "category": "world",
+      "description": "Crate or barrel knocked / bumped."
+    },
+    {
+      "id": "wood_break",
+      "files": [
+        "wood_break"
+      ],
+      "loop": false,
+      "volume": 1.0,
+      "pitchJitter": 0.05,
+      "minDistance": 2.0,
+      "maxDistance": 40.0,
+      "category": "world",
+      "description": "Crate smashing apart."
+    },
+    {
+      "id": "door_open",
+      "files": [
+        "door_open"
+      ],
+      "loop": false,
+      "volume": 0.78,
+      "pitchJitter": 0.04,
+      "minDistance": 2.0,
+      "maxDistance": 35.0,
+      "category": "world",
+      "description": "Heavy wooden door creaking open."
+    },
+    {
+      "id": "door_close",
+      "files": [
+        "door_close"
+      ],
+      "loop": false,
+      "volume": 0.69,
+      "pitchJitter": 0.05,
+      "minDistance": 2.0,
+      "maxDistance": 40.0,
+      "category": "world",
+      "description": "Heavy wooden door shutting: deep thud and latch."
+    },
+    {
+      "id": "door_locked",
+      "files": [
+        "door_locked"
+      ],
+      "loop": false,
+      "volume": 0.61,
+      "pitchJitter": 0.05,
+      "minDistance": 1.5,
+      "maxDistance": 25.0,
+      "category": "world",
+      "description": "Rattling a locked door handle."
+    },
+    {
+      "id": "door_smash",
+      "files": [
+        "door_smash"
+      ],
+      "loop": false,
+      "volume": 0.94,
+      "pitchJitter": 0.04,
+      "minDistance": 3.0,
+      "maxDistance": 50.0,
+      "category": "world",
+      "description": "Door bursting open / smashed apart."
+    },
+    {
+      "id": "lever_pull",
+      "files": [
+        "lever_pull"
+      ],
+      "loop": false,
+      "volume": 0.92,
+      "pitchJitter": 0.03,
+      "minDistance": 2.0,
+      "maxDistance": 35.0,
+      "category": "world",
+      "description": "Iron lever: ratchet clicks then a heavy clunk."
+    },
+    {
+      "id": "cage_open",
+      "files": [
+        "cage_open"
+      ],
+      "loop": false,
+      "volume": 0.75,
+      "pitchJitter": 0.03,
+      "minDistance": 2.0,
+      "maxDistance": 40.0,
+      "category": "world",
+      "description": "Iron cage gate: squealing hinge creak then a clank."
+    },
+    {
+      "id": "bridge_fall",
+      "files": [
+        "bridge_fall"
+      ],
+      "loop": false,
+      "volume": 0.94,
+      "pitchJitter": 0.02,
+      "minDistance": 4.0,
+      "maxDistance": 70.0,
+      "category": "world",
+      "description": "Rope drawbridge: straining creak, then it crashes down."
+    },
+    {
+      "id": "rope_burn",
+      "files": [
+        "rope_burn"
+      ],
+      "loop": false,
+      "volume": 0.89,
+      "pitchJitter": 0.04,
+      "minDistance": 2.0,
+      "maxDistance": 35.0,
+      "category": "world",
+      "description": "Burning rope fizzles, then snaps."
+    },
+    {
+      "id": "acid_sizzle",
+      "files": [
+        "acid_sizzle"
+      ],
+      "loop": false,
+      "volume": 0.46,
+      "pitchJitter": 0.06,
+      "minDistance": 1.5,
+      "maxDistance": 20.0,
+      "category": "world",
+      "description": "Acid pool hissing and bubbling (plague nurse acid)."
+    },
+    {
+      "id": "heal",
+      "files": [
+        "heal"
+      ],
+      "loop": false,
+      "volume": 0.35,
+      "pitchJitter": 0.03,
+      "minDistance": 1.5,
+      "maxDistance": 30.0,
+      "category": "world",
+      "description": "Plague nurse heal: sparkly rising chime."
+    },
+    {
+      "id": "revive",
+      "files": [
+        "revive"
+      ],
+      "loop": false,
+      "volume": 0.58,
+      "pitchJitter": 0.0,
+      "minDistance": 2.0,
+      "maxDistance": 40.0,
+      "category": "world",
+      "description": "Revive: rising choral swell that blooms into light."
+    },
+    {
+      "id": "alarm_bell",
+      "files": [
+        "alarm_bell"
+      ],
+      "loop": false,
+      "volume": 0.95,
+      "pitchJitter": 0.0,
+      "minDistance": 5.0,
+      "maxDistance": 80.0,
+      "category": "world",
+      "description": "Vault alarm: church bell clanging repeatedly."
+    },
+    {
+      "id": "wave_horn",
+      "files": [
+        "wave_horn"
+      ],
+      "loop": false,
+      "volume": 0.71,
+      "pitchJitter": 0.0,
+      "minDistance": 10.0,
+      "maxDistance": 120.0,
+      "category": "world",
+      "description": "Low war horn announcing an incoming wave."
+    },
+    {
+      "id": "victory",
+      "files": [
+        "victory"
+      ],
+      "loop": false,
+      "volume": 0.75,
+      "pitchJitter": 0.0,
+      "minDistance": 5.0,
+      "maxDistance": 100.0,
+      "category": "world",
+      "description": "Short triumphant fanfare (medieval brass and strings) for winning a demo."
+    },
+    {
+      "id": "defeat",
+      "files": [
+        "defeat"
+      ],
+      "loop": false,
+      "volume": 0.75,
+      "pitchJitter": 0.0,
+      "minDistance": 5.0,
+      "maxDistance": 100.0,
+      "category": "world",
+      "description": "Low doom chord for losing a demo."
+    },
+    {
+      "id": "rite_progress",
+      "files": [
+        "rite_progress"
+      ],
+      "loop": false,
+      "volume": 0.37,
+      "pitchJitter": 0.0,
+      "minDistance": 2.0,
+      "maxDistance": 40.0,
+      "category": "world",
+      "description": "Soft rising chime when the Rite of Return advances."
+    },
+    {
+      "id": "rite_complete",
+      "files": [
+        "rite_complete"
+      ],
+      "loop": false,
+      "volume": 1.0,
+      "pitchJitter": 0.0,
+      "minDistance": 5.0,
+      "maxDistance": 100.0,
+      "category": "world",
+      "description": "Rite of Return complete: big radiant chord."
+    },
+    {
+      "id": "key_pickup",
+      "files": [
+        "key_pickup"
+      ],
+      "loop": false,
+      "volume": 0.29,
+      "pitchJitter": 0.04,
+      "minDistance": 1.0,
+      "maxDistance": 15.0,
+      "category": "world",
+      "description": "Picking up a key: small metal jingle."
+    },
+    {
+      "id": "relic_pickup",
+      "files": [
+        "relic_pickup"
+      ],
+      "loop": false,
+      "volume": 0.39,
+      "pitchJitter": 0.0,
+      "minDistance": 1.5,
+      "maxDistance": 25.0,
+      "category": "world",
+      "description": "Picking up a relic: magical shimmer."
+    },
+    {
+      "id": "pebble_land",
+      "files": [
+        "pebble_land_1",
+        "pebble_land_2"
+      ],
+      "loop": false,
+      "volume": 0.7,
+      "pitchJitter": 0.08,
+      "minDistance": 1.5,
+      "maxDistance": 30.0,
+      "category": "world",
+      "description": "Thrown pebble lands: small stone clack and a short roll (distraction)."
+    },
+    {
+      "id": "ui_click",
+      "files": [
+        "ui_click"
+      ],
+      "loop": false,
+      "volume": 0.73,
+      "pitchJitter": 0.03,
+      "minDistance": 1.0,
+      "maxDistance": 10.0,
+      "category": "ui",
+      "description": "Soft UI click (menus, buttons)."
+    },
+    {
+      "id": "chant_pad",
+      "files": [
+        "chant_pad"
+      ],
+      "loop": true,
+      "volume": 0.28,
+      "pitchJitter": 0.0,
+      "minDistance": 2.0,
+      "maxDistance": 40.0,
+      "category": "world",
+      "description": "Soft choir pad held while the player chants in the Rite of Return; loop=true. Kept soft and low so it does not mask the player's voice."
+    },
+    {
+      "id": "amb_pit",
+      "files": [
+        "amb_pit"
+      ],
+      "loop": true,
+      "volume": 0.4,
+      "pitchJitter": 0.0,
+      "minDistance": 1.0,
+      "maxDistance": 500.0,
+      "category": "ambience",
+      "description": "Pit Fighter arena bed: open ruined arena, wind gusts, distant fire crackle; loop=true."
+    },
+    {
+      "id": "amb_courtyard",
+      "files": [
+        "amb_courtyard"
+      ],
+      "loop": true,
+      "volume": 0.35,
+      "pitchJitter": 0.0,
+      "minDistance": 1.0,
+      "maxDistance": 500.0,
+      "category": "ambience",
+      "description": "Puppet War courtyard bed: light outdoor wind, rustling, distant creaks; loop=true."
+    },
+    {
+      "id": "amb_chasm",
+      "files": [
+        "amb_chasm"
+      ],
+      "loop": true,
+      "volume": 0.45,
+      "pitchJitter": 0.0,
+      "minDistance": 1.0,
+      "maxDistance": 500.0,
+      "category": "ambience",
+      "description": "Ledge Key chasm bed: deep, howling wind rising from the abyss; loop=true."
+    },
+    {
+      "id": "amb_chapel",
+      "files": [
+        "amb_chapel"
+      ],
+      "loop": true,
+      "volume": 0.35,
+      "pitchJitter": 0.0,
+      "minDistance": 1.0,
+      "maxDistance": 500.0,
+      "category": "ambience",
+      "description": "Rite of Return chapel bed: low distant choir drone and dripping water; loop=true."
+    },
+    {
+      "id": "amb_vault",
+      "files": [
+        "amb_vault"
+      ],
+      "loop": true,
+      "volume": 0.4,
+      "pitchJitter": 0.0,
+      "minDistance": 1.0,
+      "maxDistance": 500.0,
+      "category": "ambience",
+      "description": "Eye Contact Heist vault bed: tense low drone, drips, faint metal creaks; loop=true."
+    },
+    {
+      "id": "amb_room",
+      "files": [
+        "amb_room"
+      ],
+      "loop": true,
+      "volume": 0.25,
+      "pitchJitter": 0.0,
+      "minDistance": 1.0,
+      "maxDistance": 500.0,
+      "category": "ambience",
+      "description": "Neutral stone room tone (any indoor space); loop=true."
+    }
+  ]
+}

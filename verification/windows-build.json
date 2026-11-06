@@ -1,0 +1,21 @@
+{
+  "platform": "Windows x64 Mono",
+  "files": [
+    {
+      "sha256": "eb143ead6441b6dd9d7d145adb85410e9389fb3878899ae537e8c9869cce38fa",
+      "bytes": 667136,
+      "path": "BrainwashSandbox.exe"
+    },
+    {
+      "sha256": "851da827899734e8b3d56f7e4dbbd58210e58e4daef504e6b7472b9ee503914b",
+      "bytes": 36784048,
+      "path": "UnityPlayer.dll"
+    },
+    {
+      "sha256": "5260355c6ac873c0a35918f361d05044c469d5f73f290ab792a70232427321c5",
+      "bytes": 440832,
+      "path": "BrainwashSandbox_Data/Managed/Brainwash.Runtime.dll"
+    }
+  ],
+  "unity": "6000.3.26f1"
+}

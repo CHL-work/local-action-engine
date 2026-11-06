@@ -1,0 +1,14 @@
+{
+  "name": "local-action-engine",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Local voice-to-action runtime and Unity Windows demonstration",
+  "license": "Apache-2.0",
+  "type": "module",
+  "engines": {"node": ">=22.13.0"},
+  "scripts": {
+    "test": "node tools/test.mjs",
+    "start": "node prototype/unity-server.mjs"
+  },
+  "dependencies": {"ajv": "8.17.1"}
+}
